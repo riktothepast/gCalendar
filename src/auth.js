@@ -1,4 +1,5 @@
 'use strict';
+const { google } = require('googleapis');
 
 function auth(privatekey, scopes) {
     const jwtClient = new google.auth.JWT(
@@ -7,8 +8,7 @@ function auth(privatekey, scopes) {
         privatekey.private_key,
         scopes);
 
-    return jwtClient.authorize()
-        .then((jwtClient));
+    return jwtClient;
 }
 
 module.exports = auth;
