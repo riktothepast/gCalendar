@@ -1,0 +1,19 @@
+{
+  "name": "gcalendar",
+  "version": "1.0.0",
+  "description": "A node Google Calendar module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calendar",
+    "google",
+    "api"
+  ],
+  "author": "Rik Illescas",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^27.0.0"
+  }
+}
